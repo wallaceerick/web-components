@@ -1,4 +1,4 @@
-web-components
+Web Components
 ==============
 
 Web Components with Polymer
