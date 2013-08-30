@@ -40,7 +40,7 @@
 
 			createIframe: function () {
 				var iframe = document.createElement('iframe'),
-				body = document.getElementsByTagName('body')[0];
+				result = document.getElementsByTagName('article')[0];
 				iframe.width = this.width;
 				iframe.height = this.height;
 				iframe.style.border = 'none';
@@ -53,7 +53,7 @@
 								'&amp;autoplay=' + this.autoplay +
 								'&amp;autohide=' + this.autohide +
 								'&amp;enablejsapi=' + this.enablejsapi;
-				body.appendChild(iframe);
+				result.appendChild(iframe);
 			}
 		});
 	</script>

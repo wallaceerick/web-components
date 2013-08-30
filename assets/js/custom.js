@@ -1,7 +1,8 @@
-$(function(){
- 
-    var altura = $('html').height();
+$(function(){ 
+
+    var altura = $(window).height();
     $("section").height(altura);
+
 
 
 });
