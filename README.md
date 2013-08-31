@@ -7,7 +7,7 @@ Web Components using Polymer
 > Maintained by [Djalma Araújo](https://github.com/djalmaaraujo).
 
 > [Check the original repository](https://github.com/djalmaaraujo/gravatar-element).
- 
+  
 
 
 https://github.com/djalmaaraujo/gravatar-element 
