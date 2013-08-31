@@ -1,1 +1,100 @@
-My GitHub Page
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Web Components</title>
+
+	<script src="assets/js/polymer.min.js"></script>
+
+	<link rel="import" href="elements/gravatar.html">
+	<link rel="import" href="elements/facebook.html">
+	<link rel="import" href="elements/twitter.html">
+	<link rel="import" href="elements/pinterest.html">
+	<link rel="import" href="elements/gplus.html">
+	<link rel="import" href="elements/youtube.html">
+	<link rel="import" href="elements/google-analytics.html">
+
+	<!-- Not Required -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
+
+</head>
+<body>
+	
+	<section id="gravatar">
+		<h1><span class="logo-gravatar"></span>Gravatar</h1>
+		<blockquote>&lt;gravatar username="wallace_erick@hotmail.com" size="150" customurl="http://www.wallaceerick.com.br"&gt;&lt;/gravatar&gt;</blockquote>
+
+		<h2>Result:</h2>
+		<div class="result">
+			<gravatar username="wallace_erick@hotmail.com" size="150" customurl="http://www.wallaceerick.com.br"></gravatar>
+		</div>
+	</section>
+
+	<section id="facebook">
+		<h1><span class="logo-facebook"></span>Facebook</h1>
+		<blockquote>&lt;facebook href="http://facebook.com/agenciacaso" layout="box_count" width="50" height="70"&gt;&lt;/facebook&gt;</blockquote>
+
+		<h2>Result:</h2>
+		<div class="result">
+			<facebook href="http://facebook.com/agenciacaso" layout="box_count" width="50" height="70"></facebook>
+		</div>
+	</section>
+
+	<section id="twitter">
+		<h1><span class="logo-twitter"></span>Twitter</h1>
+		<blockquote>&lt;twitter text="Visite o website da Agência Caso!" href="http://caso.ag" user="casoagencia" width="75"&gt;&lt;/twitter&gt;</blockquote>
+
+		<h2>Result:</h2>
+		<div class="result">
+			<twitter text="Visite o website da Agência Caso" href="http://caso.ag" user="casoagencia" width="75"></twitter>
+		</div>
+	</section>
+
+	<section id="gplus">
+		<h1><span class="logo-plus"></span>Google Plus</h1>
+		<blockquote>&lt;gplus annotation="bubble" href="http://caso.ag" width="65"&gt;&lt;/gplus&gt;</blockquote>
+
+		<h2>Result:</h2>
+		<div class="result">
+			<gplus annotation="bubble" href="http://caso.ag" width="65"></gplus>
+		</div>
+	</section>
+
+	<section id="pinterest">
+		<h1><span class="logo-pinterest"></span>Pinterest</h1>
+		<blockquote>&lt;pinterest url="http://caso.ag" description="Agência Caso" urlImage="http://caso.ag/assets/images/share.jpg"&gt;&lt;/pinterest&gt;</blockquote>
+
+		<h2>Result:</h2>
+		<div class="result">
+			<pinterest url="http://caso.ag" description="Agência Caso" urlImage="http://caso.ag/assets/images/share.jpg"></pinterest>
+		</div>
+	</section>
+
+	<section id="youtube">
+		<h1><span class="logo-youtube"></span>Youtube</h1>
+		<blockquote>&lt;youtube videoid="M9BNoNFKCBI" theme="light"&gt;&lt;/youtube&gt;</blockquote>
+
+		<h2>Result:</h2>
+		<div class="result" id="result">
+			<article></article>
+			<youtube videoid="M9BNoNFKCBI" theme="light"></youtube> 
+		</div>
+	</section>
+
+	<section id="google-analytics">
+		<h1><span class="logo-analytics"></span>Google Analytics</h1>
+		<blockquote>&lt;google-analytics domain="wallaceerick.com.br " code="UA-19247596-1"&gt;&lt;/google-analytics&gt;</blockquote>
+
+		<h2>Result:</h2>
+		<div class="result">
+			Needs an Analytics Account!
+		</div>
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<polymer-element name="youtube"
+		 attributes="theme width height showinfo loop end color autoplay autohide videoid enablejsapi">
+
+	<template>
+		<template if="{{videoid == 'videoid'}}">
+			<p class="youtube-element-error">Inform the url of the video, e g: <code class="youtube-element-code">&lt;youtube src="http://www.youtube.com/embed/M7lc1UVf-VE"&gt;</code></p>
+		</template>
+
+		<style>
+			.youtube-element-error {
+				font-size: 12px; 
+				color: #171717;
+			}
+
+			.youtube-element-code {
+				font-style: italic;
+			}
+		</style>
+	</template>
+
+	<script>
+		Polymer('youtube', {
+			videoid     : 'videoid',
+			theme       : 'dark',
+			width       : 500,
+			height      : 300,
+			showinfo    : 1,
+			loop        : 0,
+			end         : 0,
+			color       : 'red',
+			autoplay    : 0,
+			autohide    : 2,
+			enablejsapi : 1,
+
+			created: function () {
+				if (this.videoid != 'videoid') {
+					this.createIframe();
+				}
+			},
+
+			createIframe: function () {
+				var iframe = document.createElement('iframe'),
+				result = document.getElementsByTagName('article')[0];
+				iframe.width = this.width;
+				iframe.height = this.height;
+				iframe.style.border = 'none';
+				iframe.src = '//www.youtube.com/embed/' + this.videoid +
+								'?theme=' + this.theme +
+								'&amp;showinfo=' + this.showinfo +
+								'&amp;loop=' + this.loop +
+								'&amp;end=' + this.end +
+								'&amp;color=' + this.color +
+								'&amp;autoplay=' + this.autoplay +
+								'&amp;autohide=' + this.autohide +
+								'&amp;enablejsapi=' + this.enablejsapi;
+				result.appendChild(iframe);
+			}
+		});
+	</script>
+
+</polymer-element>

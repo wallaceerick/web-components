@@ -1,0 +1,88 @@
+@import "compass";
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+	color: #fff;
+	@include box-sizing(border-box);
+}
+
+section {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding-top: 50px;
+	text-align: center;
+	h1 {
+		display: block;
+		width: 200px;
+		padding-top: 122px;
+		font-size: 25px;
+		margin: 0 auto;
+		font-weight: normal;
+		text-transform: uppercase;
+		span {
+			display: block;
+			margin: 0 auto;
+			width: 117px;
+			height: 117px;
+		}
+	}
+	h2 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-top: 30px;
+	}
+	blockquote, .result {
+		color: #fff;
+		display: table ; 
+		font-size: 15px;
+		padding: 10px 20px;
+		margin: 40px auto;
+		background: rgba(255, 255, 255, 0.1);
+		@include transition(all 0.3s ease-in);
+		&:hover {
+			background: rgba(255, 255, 255, 0.3);
+		}
+	}
+	.result { 
+		padding: 10px;
+		margin: 0 auto;
+		text-align: center; 
+	}
+ 
+	@import "logo/*.png";
+	$logo-spacing: 20px; 
+
+	&#gravatar {
+		background: #0a76b7;
+		@include logo-sprites('gravatar'); 
+	}
+	&#facebook {
+		background: #3b5999; 
+		@include logo-sprites('facebook');
+	}
+	&#twitter {
+		background: #598dca;
+		@include logo-sprites('twitter');
+	}
+	&#gplus {
+		background: #f37f6a;
+		@include logo-sprites('plus');
+	}
+	&#pinterest {
+		background: #cf3d3a;
+		@include logo-sprites('pinterest');
+	}
+	&#youtube {
+		background: #db6056;
+		@include logo-sprites('youtube');
+	}
+	&#google-analytics {
+		background: #f89442;
+		@include logo-sprites('analytics');
+	}
+}
