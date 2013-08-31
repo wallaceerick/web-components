@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Web Components
 ==============
 
@@ -9,6 +10,12 @@ Web Components using Polymer
 > [Check the original repository](https://github.com/djalmaaraujo/gravatar-element).
  
 
+=======
+Web Components
+==============
+
+Web Components with Polymer
+>>>>>>> master
 
 
 https://github.com/djalmaaraujo/gravatar-element 
