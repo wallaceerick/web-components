@@ -1,8 +1,9 @@
-$(function(){ 
+function resize(){
+	var w = window.innerWidth;
+	var h = window.innerHeight;
 
-    var altura = $(window).height();
-    $("section").height(altura);
+	var target = document.getElementById("gravatar");
 
+	target.style.height = (h + 'px');
 
-
-});
+}

@@ -6,6 +6,7 @@
 	<title>Web Components</title>
 
 	<script src="assets/js/polymer.min.js"></script>
+	<script src="assets/js/custom.js"></script>
 
 	<link rel="import" href="elements/gravatar.html">
 	<link rel="import" href="elements/facebook.html">
@@ -15,15 +16,11 @@
 	<link rel="import" href="elements/youtube.html">
 	<link rel="import" href="elements/google-analytics.html">
 
-	<!-- Not Required -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/custom.js"></script>
-
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
 
 </head>
-<body>
+<body onload="resize();">
 	
 	<section id="gravatar">
 		<h1><span class="logo-gravatar"></span>Gravatar</h1>
