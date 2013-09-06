@@ -16,7 +16,7 @@ Web Components using Polymer
 ### Twitter
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/twitter-element).
 
-### Google Plus
+### Google Plus 
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/gplus-element).
 
 ### Pinterest
