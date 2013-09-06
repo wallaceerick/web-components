@@ -10,7 +10,7 @@ Web Components using Polymer
 ### Gravatar
 > Maintained by [Djalma Araújo](https://github.com/djalmaaraujo), check the  [original repository](https://github.com/djalmaaraujo/gravatar-element).
 
-### Facebook
+### Facebook  
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/facebook-element).
 
 ### Twitter
@@ -39,6 +39,9 @@ https://github.com/zenorocha/badge-element
 
 ### Github
 https://github.com/zenorocha/github-element
+ 
+### Hangout
+http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
 
 
 ## Contributing
