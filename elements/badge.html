@@ -1,0 +1,23 @@
+<polymer-element name="badge" attributes="repo type">
+
+	<template>
+		<a href="http://badge.fury.io/{{type}}/{{repo}}">
+			<img src="https://badge.fury.io/{{type}}/{{repo}}.png" alt="Badge">
+		</a>
+
+		<style>
+			a {
+				max-width: 100%;
+				text-decoration: none
+			}
+		</style>
+	</template>
+
+	<script>
+		Polymer('badge', {
+			repo: '',
+			type: ''
+		});
+	</script>
+
+</polymer-element>

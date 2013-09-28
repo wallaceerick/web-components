@@ -40,8 +40,9 @@ section h2 {
   font-size: 18px;
   font-weight: normal;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
-/* line 38, style.scss */
+/* line 39, style.scss */
 section blockquote, section .result {
   color: #fff;
   display: table;
@@ -54,21 +55,21 @@ section blockquote, section .result {
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-/* line 46, style.scss */
+/* line 47, style.scss */
 section blockquote:hover, section .result:hover {
   background: rgba(255, 255, 255, 0.3);
 }
-/* line 50, style.scss */
+/* line 51, style.scss */
 section .result {
   padding: 10px;
   margin: 0 auto;
   text-align: center;
 }
 /* line 114, logo/*.png */
-section .logo-sprite, section#gravatar .logo-gravatar, section#facebook .logo-facebook, section#twitter .logo-twitter, section#gplus .logo-plus, section#pinterest .logo-pinterest, section#youtube .logo-youtube, section#google-analytics .logo-analytics {
+section .logo-sprite, section#gravatar .logo-gravatar, section#facebook .logo-facebook, section#twitter .logo-twitter, section#gplus .logo-plus, section#pinterest .logo-pinterest, section#youtube .logo-youtube, section#google-analytics .logo-analytics, section#badge .logo-badge {
   background: url('../images/logo-se7cf49c67e.png') no-repeat;
 }
-/* line 59, style.scss */
+/* line 60, style.scss */
 section#gravatar {
   background: #0a76b7;
 }
@@ -76,7 +77,7 @@ section#gravatar {
 section#gravatar .logo-gravatar {
   background-position: 0 -117px;
 }
-/* line 63, style.scss */
+/* line 64, style.scss */
 section#facebook {
   background: #3b5999;
 }
@@ -84,7 +85,7 @@ section#facebook {
 section#facebook .logo-facebook {
   background-position: 0 -1053px;
 }
-/* line 67, style.scss */
+/* line 68, style.scss */
 section#twitter {
   background: #598dca;
 }
@@ -92,7 +93,7 @@ section#twitter {
 section#twitter .logo-twitter {
   background-position: 0 -819px;
 }
-/* line 71, style.scss */
+/* line 72, style.scss */
 section#gplus {
   background: #f37f6a;
 }
@@ -100,7 +101,7 @@ section#gplus {
 section#gplus .logo-plus {
   background-position: 0 -234px;
 }
-/* line 75, style.scss */
+/* line 76, style.scss */
 section#pinterest {
   background: #cf3d3a;
 }
@@ -108,7 +109,7 @@ section#pinterest {
 section#pinterest .logo-pinterest {
   background-position: 0 0;
 }
-/* line 79, style.scss */
+/* line 80, style.scss */
 section#youtube {
   background: #db6056;
 }
@@ -116,11 +117,19 @@ section#youtube {
 section#youtube .logo-youtube {
   background-position: 0 -351px;
 }
-/* line 83, style.scss */
+/* line 84, style.scss */
 section#google-analytics {
   background: #f89442;
 }
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section#google-analytics .logo-analytics {
   background-position: 0 -702px;
+}
+/* line 88, style.scss */
+section#badge {
+  background: #75c033;
+}
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+section#badge .logo-badge {
+  background-position: 0 -936px;
 }

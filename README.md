@@ -7,35 +7,37 @@ Web Components using Polymer
 
 ## Includes
 
-### Gravatar
+#### Gravatar
 > Maintained by [Djalma Araújo](https://github.com/djalmaaraujo), check the  [original repository](https://github.com/djalmaaraujo/gravatar-element).
 
-### Facebook  
+#### Facebook  
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/facebook-element).
 
-### Twitter
+#### Twitter
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/twitter-element).
 
-### Google Plus 
+#### Google Plus 
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/gplus-element).
 
-### Pinterest
+#### Badge
+> Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/version-badge).
+
+#### Pinterest
 > Maintained by [Gustavo Isensee](https://github.com/gustavoisensee), check the  [original repository](https://github.com/gustavoisensee/pinterest-element).
 
-### Youtube
+#### Youtube
 > Maintained by [Bruno Queiros](https://github.com/brunoqueiros), check the  [original repository](https://github.com/brunoqueiros/youtube-element).
 
-### Google Analytics
+#### Google Analytics
 > Maintained by [Cesar William](https://github.com/cesarwbr), check the  [original repository](https://github.com/cesarwbr/google-analytics-element).
 
+#### Badge
+https://github.com/zenorocha/badge-element
 
 ## Next Elements
 
 ### Vimeo
 https://github.com/djalmaaraujo/vimeo-element
-
-### Badge
-https://github.com/zenorocha/badge-element
 
 ### Github
 https://github.com/zenorocha/github-element
