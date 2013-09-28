@@ -7,7 +7,16 @@
 	color: #fff;
 	@include box-sizing(border-box);
 }
-
+a.fork {
+	width: block;
+	text-indent: -9999px;
+	width: 150px;
+	height: 150px;
+	background: image-url('fork.png') 0 0 no-repeat;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
 section {
 	display: block;
 	position: relative;
@@ -18,7 +27,7 @@ section {
 	h1 {
 		display: block;
 		width: 200px;
-		padding-top: 122px;
+		padding-top: 125px;
 		font-size: 25px;
 		margin: 0 auto;
 		font-weight: normal;
@@ -35,7 +44,7 @@ section {
 		font-weight: normal;
 		margin-top: 30px;
 		margin-bottom: 20px;
-	}
+	} 
 	blockquote, .result {
 		color: #fff;
 		display: table ; 
@@ -81,16 +90,17 @@ section {
 		background: #db6056;
 		@include logo-sprites('youtube');
 	}
-	&#google-analytics {
+	&#analytics {
 		background: #f89442;
 		@include logo-sprites('analytics');
-	}
-	&#badge {
-		background: #75c033;
-		@include logo-sprites('badge');
 	}
 	&#github {
 		background: #353535;
 		@include logo-sprites('github');
+	}
+	&#badge {
+		background: #75c033;
+		height: 1000px!important;
+		@include logo-sprites('badge');
 	}
 }
