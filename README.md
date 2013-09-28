@@ -39,9 +39,6 @@ Web Components using Polymer
 
 ### Vimeo
 https://github.com/djalmaaraujo/vimeo-element
-
-### Github
-https://github.com/zenorocha/github-element
  
 ### Hangout
 http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
