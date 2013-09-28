@@ -43,6 +43,8 @@ https://github.com/zenorocha/github-element
 ### Hangout
 http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
 
+### Slideshow
+https://github.com/ryanseddon/web-components
 
 ## Contributing
 
