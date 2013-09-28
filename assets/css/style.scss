@@ -89,4 +89,8 @@ section {
 		background: #75c033;
 		@include logo-sprites('badge');
 	}
+	&#github {
+		background: #353535;
+		@include logo-sprites('github');
+	}
 }

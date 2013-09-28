@@ -66,8 +66,8 @@ section .result {
   text-align: center;
 }
 /* line 114, logo/*.png */
-section .logo-sprite, section#gravatar .logo-gravatar, section#facebook .logo-facebook, section#twitter .logo-twitter, section#gplus .logo-plus, section#pinterest .logo-pinterest, section#youtube .logo-youtube, section#google-analytics .logo-analytics, section#badge .logo-badge {
-  background: url('../images/logo-se7cf49c67e.png') no-repeat;
+section .logo-sprite, section#gravatar .logo-gravatar, section#facebook .logo-facebook, section#twitter .logo-twitter, section#gplus .logo-plus, section#pinterest .logo-pinterest, section#youtube .logo-youtube, section#google-analytics .logo-analytics, section#badge .logo-badge, section#github .logo-github {
+  background: url('../images/logo-s80efcf97ba.png') no-repeat;
 }
 /* line 60, style.scss */
 section#gravatar {
@@ -99,7 +99,7 @@ section#gplus {
 }
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section#gplus .logo-plus {
-  background-position: 0 -234px;
+  background-position: 0 -351px;
 }
 /* line 76, style.scss */
 section#pinterest {
@@ -115,7 +115,7 @@ section#youtube {
 }
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section#youtube .logo-youtube {
-  background-position: 0 -351px;
+  background-position: 0 -468px;
 }
 /* line 84, style.scss */
 section#google-analytics {
@@ -132,4 +132,12 @@ section#badge {
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section#badge .logo-badge {
   background-position: 0 -936px;
+}
+/* line 92, style.scss */
+section#github {
+  background: #353535;
+}
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+section#github .logo-github {
+  background-position: 0 -234px;
 }

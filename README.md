@@ -22,6 +22,9 @@ Web Components using Polymer
 #### Badge
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/version-badge).
 
+#### Github
+> Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/github-button). 
+
 #### Pinterest
 > Maintained by [Gustavo Isensee](https://github.com/gustavoisensee), check the  [original repository](https://github.com/gustavoisensee/pinterest-element).
 
@@ -31,8 +34,6 @@ Web Components using Polymer
 #### Google Analytics
 > Maintained by [Cesar William](https://github.com/cesarwbr), check the  [original repository](https://github.com/cesarwbr/google-analytics-element).
 
-#### Badge
-https://github.com/zenorocha/badge-element
 
 ## Next Elements
 
