@@ -35,7 +35,61 @@ Web Components using Polymer
 > Maintained by [Zeno Rocha](https://github.com/zenorocha), check the  [original repository](https://github.com/zenorocha/version-badge).
 
 
-## Next Elements
+## To Do
+
+####Github Ribbon
+https://github.com/zenorocha/github-button
+
+####Google Maps
+https://github.com/eduardolundgren/google-maps-element
+
+####Highlight Code
+https://github.com/deepak1556/highlight-code-element
+
+####Linkedin
+https://github.com/gustavoisensee/linkedin-button
+
+####Modal
+https://github.com/x-tag/modal
+
+####QR Code Generator
+https://github.com/educastellano/qr-code
+
+###Q#R Code Reader
+https://github.com/educastellano/qr-reader
+
+####Time Ago
+http://brunoziie.github.io/time-ago-element/
+
+####Tumblr
+https://github.com/gustavoisensee/tumblr-button
+
+####Toggle
+https://github.com/x-tag/toggle
+
+####Slidebox
+https://github.com/x-tag/slidebox
+
+####Tooltip
+https://github.com/x-tag/tooltip
+
+####Flipbox
+https://github.com/x-tag/flipbox
+
+###Calendar
+https://github.com/x-tag/calendar
+
+###Datepicker
+https://github.com/x-tag/datepicker
+
+####Dragbox
+https://github.com/x-tag/dragbox
+
+####Shiftbox
+https://github.com/x-tag/shiftbox
+
+####Switcher
+https://github.com/x-tag/switch
 
 #### Vimeo
 https://github.com/djalmaaraujo/vimeo-element
