@@ -55,7 +55,7 @@ https://github.com/x-tag/modal
 ####QR Code Generator
 https://github.com/educastellano/qr-code
 
-###Q#R Code Reader
+####QR Code Reader
 https://github.com/educastellano/qr-reader
 
 ####Time Ago
